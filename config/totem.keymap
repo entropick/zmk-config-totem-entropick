@@ -85,9 +85,9 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-            &kp X       &kp V       &kp L        &kp C        &kp W        &kp K    &kp H           &kp G        &kp F       &kp SEMI
+            &kp X       &kp V       &kp L        &kp C        &kp W        &kp K    &kp H           &kp G        &kp F       &kp Y
             &mt LGUI U  &mt LALT I  &mt LCTRL A  &mt LSHFT E  &kp O        &kp S    &mt RSHFT N     &mt RCTRL R  &mt RALT T  &mt RIGHT_WIN D
-&kp ESCAPE  &kp Z       &kp X       &kp C        &kp P        &kp Z        &kp B    &kp M           &kp COMMA    &kp DOT     &kp J            &kp FSLH
+&kp ESCAPE  &kp Z       &kp X       &kp C        &kp P        &kp Z        &kp B    &kp M           &kp COMMA    &kp DOT     &kp J            &kp Q
                                     &kp DEL      &lt NAV TAB  &kp SPACE    &kp RET  &lt SYM ESCAPE  &kp BSPC
             >;
         };
@@ -111,10 +111,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-               &kp ESC           &bt BT_CLR  &kp UP    &kp EQUAL  &kp LBRC    &kp RBRC  &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_PLUS
-               &kp LESS_THAN     &kp LEFT    &kp DOWN  &kp RIGHT  &kp LBKT    &kp RBKT  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_MINUS
-&kp BACKSLASH  &kp GREATER_THAN  &kp PG_UP   &kp CAPS  &kp PG_DN  &kp LPAR    &kp RPAR  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_MULTIPLY  &kp KP_DIVIDE
-                                             &trans    &trans     &trans      &mo ADJ   &kp KP_N0  &trans
+               &kp ESC    &bt BT_CLR  &kp UP          &kp EQUAL  &kp LBRC    &kp RBRC  &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_PLUS
+               &kp PG_UP  &kp LEFT    &kp DOWN        &kp RIGHT  &kp LBKT    &kp RBKT  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_MINUS
+&kp BACKSLASH  &kp PG_DN  &kp PG_UP   &kp UNDERSCORE  &kp SEMI   &kp LPAR    &kp RPAR  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_MULTIPLY  &kp KP_DIVIDE
+                                      &trans          &trans     &trans      &mo ADJ   &kp KP_N0  &kp LSHFT
             >;
         };
 
