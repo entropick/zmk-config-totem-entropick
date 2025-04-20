@@ -44,7 +44,7 @@
         combo_tvp {
             timeout-ms = <100>;
             key-positions = <11 12 13 16 17 18 0 9 10 11 12 13 14 15 16 17 18 19 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 32 33 34 35 36 37 30>;
-            bindings = <&tog TVP1>;
+            bindings = <&tog 4>;
         };
     };
 
@@ -87,10 +87,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &kp X       &kp V       &kp L        &kp C        &kp W        &kp K    &kp H           &kp G        &kp F       &kp Y
-       &mt LGUI U  &mt LALT I  &mt LCTRL A  &mt LSHFT E  &kp O        &kp S    &mt RSHFT N     &mt RCTRL R  &mt RALT T  &mt RIGHT_WIN D
-&kp J  &de_ue      &de_oe      &de_ae       &kp P        &kp Z        &kp B    &kp M           &kp COMMA    &kp DOT     &kp SEMICOLON    &kp Q
-                               &kp DEL      &lt NAV TAB  &kp SPACE    &kp RET  &lt SYM ESCAPE  &kp BSPC
+       &kp X       &kp V       &kp L        &kp C        &kp W        &kp K    &kp H         &kp G        &kp F       &kp Y
+       &mt LGUI U  &mt LALT I  &mt LCTRL A  &mt LSHFT E  &kp O        &kp S    &mt RSHFT N   &mt RCTRL R  &mt RALT T  &mt RIGHT_WIN D
+&kp J  &de_ue      &de_oe      &de_ae       &kp P        &kp Z        &kp B    &kp M         &kp COMMA    &kp DOT     &kp SEMICOLON    &kp Q
+                               &kp DEL      &lt 1 TAB    &kp SPACE    &kp RET  &lt 2 ESCAPE  &kp BSPC
             >;
         };
 
@@ -139,10 +139,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &trans    &kp AT     &kp HASH        &kp DLLR           &kp C_VOL_UP    &kp GRAVE  &kp F7  &kp F8  &kp F9  &kp F12
-        &kp EXCL  &kp TILDE  &kp APOSTROPHE  &kp DOUBLE_QUOTES  &kp C_VOL_DN    &kp CAPS   &kp F4  &kp F5  &kp F6  &kp F11
-&trans  &trans    &kp CARET  &kp PERCENT     &kp AMPERSAND      &kp C_MUTE      &kp EQUAL  &kp F1  &kp F2  &kp F3  &kp F10  &trans
-                             &kp C_PREV      &mo 3              &kp C_NEXT      &trans     &trans  &trans
+        &kp QUESTION  &kp AT     &kp HASH        &kp DLLR           &kp C_VOL_UP    &kp GRAVE  &kp F7  &kp F8  &kp F9  &kp F12
+        &kp EXCL      &kp TILDE  &kp APOSTROPHE  &kp DOUBLE_QUOTES  &kp C_VOL_DN    &kp CAPS   &kp F4  &kp F5  &kp F6  &kp F11
+&trans  &trans        &kp CARET  &kp PERCENT     &kp AMPERSAND      &kp C_MUTE      &kp EQUAL  &kp F1  &kp F2  &kp F3  &kp F10  &trans
+                                 &kp C_PREV      &mo 3              &kp C_NEXT      &trans     &trans  &trans
             >;
         };
 
@@ -191,10 +191,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &kp TAB     &kp I      &kp LC(LALT)  &kp O        &kp LC(F20)    &none  &none  &none  &none  &none
-       &lt TVP2 L  &kp LEFT   &kp LALT      &kp RIGHT    &kp SPACE      &none  &none  &none  &none  &none
-&kp J  &kp LSHFT   &kp LC(C)  &kp BSPC      &kp LC(V)    &kp LC(F19)    &none  &none  &none  &none  &none  &none
-                              &trans        &kp LC(F14)  &kp LC(F13)    &none  &none  &none
+       &kp TAB    &kp I      &kp LC(LALT)  &kp O        &kp LC(F20)    &none  &none  &none  &none  &none
+       &lt 5 L    &kp LEFT   &kp LALT      &kp RIGHT    &kp SPACE      &none  &none  &none  &none  &none
+&kp J  &kp LSHFT  &kp LC(C)  &kp BSPC      &kp LC(V)    &kp LC(F19)    &none  &none  &none  &none  &none  &none
+                             &trans        &kp LC(F14)  &kp LC(F13)    &none  &none  &none
             >;
         };
 
