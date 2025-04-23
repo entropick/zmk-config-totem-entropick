@@ -104,10 +104,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                   &kp A      &kp A      &kp UP          &kp LS(NUMBER_0)  &kp LC(LA(NUMBER_7))    &kp LC(LA(NUMBER_0))  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_PLUS
-                   &kp PG_UP  &kp LEFT   &kp DOWN        &kp RIGHT         &kp LC(LA(NUMBER_8))    &kp LC(LA(NUMBER_9))  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_MINUS
-&kp LC(LA(MINUS))  &kp PG_DN  &kp MINUS  &kp UNDERSCORE  &kp SLASH         &kp LS(NUMBER_8)        &kp LS(NUMBER_9)      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_MULTIPLY  &kp KP_DIVIDE
-                                         &trans          &trans            &trans                  &kp LEFT_SHIFT        &mo 3         &kp KP_N0
+                  &kp A      &kp A         &kp UP          &kp DE_EQUAL  &kp DE_LEFT_PARENTHESIS    &kp DE_RIGHT_PARENTHESIS  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_PLUS
+                  &kp PG_UP  &kp LEFT      &kp DOWN        &kp RIGHT     &kp DE_LEFT_BRACKET        &kp DE_RIGHT_BRACKET      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_MINUS
+&kp DE_BACKSLASH  &kp PG_DN  &kp DE_MINUS  &kp UNDERSCORE  &kp SLASH     &kp DE_LEFT_BRACE          &kp DE_RIGHT_BRACE        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_MULTIPLY  &kp KP_DIVIDE
+                                           &trans          &trans        &trans                     &kp LEFT_SHIFT            &mo 3         &kp KP_N0
             >;
         };
 
