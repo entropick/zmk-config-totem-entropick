@@ -130,10 +130,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp QUESTION  &kp LC(LA(Q))              &kp BACKSLASH     &kp DLLR          &kp C_VOL_UP    &kp EQUAL         &kp F7  &kp F8  &kp F9  &kp F12
-        &kp EXCL      &kp LC(LA(RIGHT_BRACKET))  &kp LS(BSLH)      &kp LS(NUMBER_2)  &kp C_VOL_DN    &kp CAPS          &kp F4  &kp F5  &kp F6  &kp F11
-&trans  &trans        &kp GRAVE                  &kp LS(NUMBER_5)  &kp LS(NUMBER_6)  &kp C_MUTE      &kp LS(NUMBER_0)  &kp F1  &kp F2  &kp F3  &kp F10  &trans
-                                                 &kp C_PREV        &mo 3             &kp C_NEXT      &trans            &trans  &trans
+        &kp QUESTION  &kp DE_AT     &kp DE_HASH           &kp DLLR             &kp C_VOL_UP    &kp EQUAL         &kp F7  &kp F8  &kp F9  &kp F12
+        &kp EXCL      &kp DE_GRAVE  &kp DE_DOUBLE_QUOTES  &kp DE_SINGLE_QUOTE  &kp C_VOL_DN    &kp CAPS          &kp F4  &kp F5  &kp F6  &kp F11
+&trans  &trans        &kp DE_TILDE  &kp DE_PERCENT        &kp DE_AMPERSAND     &kp C_MUTE      &kp LS(NUMBER_0)  &kp F1  &kp F2  &kp F3  &kp F10  &trans
+                                    &kp C_PREV            &mo 3                &kp C_NEXT      &trans            &trans  &trans
             >;
         };
 
