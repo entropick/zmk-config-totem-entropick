@@ -53,6 +53,11 @@
             bindings = <&kp DE_EXCLAMATION>;
             key-positions = <6 7 8>;
         };
+
+        lay_0 {
+            bindings = <&tog 0>;
+            key-positions = <32 37>;
+        };
     };
 
     macros {
