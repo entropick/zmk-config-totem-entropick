@@ -113,7 +113,7 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &kp X            &kp V            &kp L            &kp C        &kp W        &kp K    &kp H           &kp G        &kp F       &kp DE_Y
+       &kp X            &kp V            &kp L            &kp C        &kp DE_F     &kp K    &kp H           &kp G        &kp W       &kp DE_Y
        &mt LGUI U       &mt LALT I       &mt LCTRL A      &mt LSHFT E  &kp O        &kp S    &mt RSHFT N     &mt RCTRL R  &mt RALT T  &mt RIGHT_WIN D
 &kp J  &kp DE_U_UMLAUT  &kp DE_O_UMLAUT  &kp DE_A_UMLAUT  &kp P        &kp DE_Z     &kp B    &kp M           &kp COMMA    &kp DOT     &kp DE_SZ        &kp Q
                                          &kp DEL          &lt 1 TAB    &kp SPACE    &kp RET  &lt 2 DE_SLASH  &kp BSPC
