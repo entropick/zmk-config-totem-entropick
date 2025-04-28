@@ -209,7 +209,7 @@
         game_layer_2 {
             bindings = <
         &kp DE_Z  &trans          &trans    &kp DE_Q  &kp DE_R     &trans  &trans  &trans  &trans  &trans
-        &kp DE_A  &kp DE_E        &kp DE_W  &kp DE_F  &kp DE_T     &trans  &trans  &trans  &trans  &trans
+        &kp DE_A  &kp DE_F        &kp DE_W  &kp DE_E  &kp DE_T     &trans  &trans  &trans  &trans  &trans
 &trans  &kp DE_D  &kp LEFT_SHIFT  &kp DE_S  &kp DE_V  &kp DE_C     &trans  &trans  &trans  &trans  &trans  &to 0
                                   &kp DE_G  &kp DE_H  &kp SPACE    &to 0   &to 0   &trans
             >;
