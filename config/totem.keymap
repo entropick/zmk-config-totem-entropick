@@ -40,17 +40,12 @@
 
         combo_dash {
             bindings = <&kp DE_MINUS>;
-            key-positions = <27 28 29>;
+            key-positions = <28 29>;
         };
 
         combo__ {
             bindings = <&kp DE_UNDERSCORE>;
-            key-positions = <24 23 22>;
-        };
-
-        combo_exel {
-            bindings = <&kp DE_EXCLAMATION>;
-            key-positions = <6 7 8>;
+            key-positions = <23 22>;
         };
 
         lay_0 {
@@ -138,10 +133,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-               &kp DE_UNDER     &kp DE_MINUS      &kp LESS_THAN   &kp GREATER_THAN  &kp DE_LEFT_PARENTHESIS    &kp DE_RIGHT_PARENTHESIS  &kp DE_N7    &kp DE_N8         &kp DE_N9  &kp DE_QUESTION
-               &kp KP_DIVIDE    &kp LEFT          &kp UP          &kp RIGHT         &kp DE_LEFT_BRACKET        &kp DE_RIGHT_BRACKET      &kp DE_N4    &kp DE_N5         &kp DE_N6  &kp KP_MINUS
-&kp PAGE_DOWN  &kp KP_MULTIPLY  &kp DE_BACKSLASH  &kp DOWN_ARROW  &kp EQUAL         &kp DE_LEFT_BRACE          &kp DE_RIGHT_BRACE        &kp DE_N1    &kp DE_N2         &kp DE_N3  &kp KP_PLUS      &kp PG_UP
-                                                  &trans          &trans            &trans                     &kp LEFT_SHIFT            &lt 3 DE_N0  &kp LEFT_CONTROL
+               &kp DE_QUESTION  &kp DE_UNDER      &kp LESS_THAN   &kp GREATER_THAN  &kp DE_LEFT_PARENTHESIS    &kp DE_RIGHT_PARENTHESIS  &kp DE_N7  &kp DE_N8  &kp DE_N9  &kp LEFT_CONTROL
+               &kp KP_DIVIDE    &kp LEFT          &kp UP          &kp RIGHT         &kp DE_LEFT_BRACKET        &kp DE_RIGHT_BRACKET      &kp DE_N4  &kp DE_N5  &kp DE_N6  &kp KP_MINUS
+&kp PAGE_DOWN  &kp KP_MULTIPLY  &kp DE_BACKSLASH  &kp DOWN_ARROW  &kp EQUAL         &kp DE_LEFT_BRACE          &kp DE_RIGHT_BRACE        &kp DE_N1  &kp DE_N2  &kp DE_N3  &kp KP_PLUS       &kp PG_UP
+                                                  &trans          &trans            &trans                     &kp LEFT_SHIFT            &mo 3      &kp DE_N0
             >;
         };
 
