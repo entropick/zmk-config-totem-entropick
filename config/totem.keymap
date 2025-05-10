@@ -39,12 +39,12 @@
         };
 
         combo_dash {
-            bindings = <&kp DE_MINUS>;
+            bindings = <&kp BACKSPACE>;
             key-positions = <28 29>;
         };
 
         combo__ {
-            bindings = <&kp DE_UNDERSCORE>;
+            bindings = <&kp DELETE>;
             key-positions = <23 22>;
         };
 
