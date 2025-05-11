@@ -133,10 +133,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp DE_QUESTION         &kp DE_UNDER       &kp DE_LESS_THAN     &kp DE_GREATER_THAN   &kp DE_LEFT_PARENTHESIS    &kp DE_RIGHT_PARENTHESIS  &kp DE_N7             &kp DE_N8               &kp DE_N9           &kp DE_EXCL
-        &mt KP_DIVIDE LEFT_WIN  &mt LEFT LEFT_ALT  &mt UP LEFT_CONTROL  &mt RIGHT LEFT_SHIFT  &kp DE_LEFT_BRACKET        &kp DE_RIGHT_BRACKET      &mt DE_N4 LEFT_SHIFT  &mt DE_N5 LEFT_CONTROL  &mt DE_N6 LEFT_ALT  &mt KP_MINUS LEFT_WIN
-&trans  &kp KP_MULTIPLY         &kp DE_BACKSLASH   &kp DOWN_ARROW       &kp DE_EQUAL          &kp DE_LEFT_BRACE          &kp DE_RIGHT_BRACE        &kp DE_N1             &kp DE_N2               &kp DE_N3           &kp KP_PLUS            &trans
-                                                   &trans               &trans                &trans                     &kp PAGE_DOWN             &lt 3 DE_N0           &kp PAGE_UP
+        &kp DE_QUESTION         &kp DE_UNDER             &kp DE_LESS_THAN     &kp DE_GREATER_THAN   &kp DE_LEFT_PARENTHESIS    &kp DE_RIGHT_PARENTHESIS  &kp DE_N7             &kp DE_N8               &kp DE_N9           &kp DE_EXCL
+        &mt LEFT_WIN KP_DIVIDE  &mt LEFT_ALT LEFT_ARROW  &mt LEFT_CONTROL UP  &mt LEFT_SHIFT RIGHT  &kp DE_LEFT_BRACKET        &kp DE_RIGHT_BRACKET      &mt LEFT_SHIFT DE_N4  &mt LEFT_CONTROL DE_N5  &mt LEFT_ALT DE_N6  &mt LEFT_WIN KP_MINUS
+&trans  &kp KP_MULTIPLY         &kp DE_BACKSLASH         &kp DOWN_ARROW       &kp DE_EQUAL          &kp DE_LEFT_BRACE          &kp DE_RIGHT_BRACE        &kp DE_N1             &kp DE_N2               &kp DE_N3           &kp KP_PLUS            &trans
+                                                         &trans               &trans                &trans                     &kp PAGE_DOWN             &lt 3 DE_N0           &kp PAGE_UP
             >;
         };
 
