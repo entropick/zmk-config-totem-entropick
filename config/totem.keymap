@@ -186,8 +186,8 @@
 
             bindings = <
         &to 4           &to 5             &trans  &kp DE_T        &kp DE_D           &trans  &trans  &trans  &trans  &trans
-        &kp LEFT_WIN    &kp LEFT_CONTROL  &trans  &kp LEFT_ARROW  &kp RIGHT_ARROW    &trans  &trans  &trans  &trans  &trans
-&trans  &kp LEFT_SHIFT  &kp LEFT_ALT      &trans  &kp DE_W        &trans             &trans  &trans  &trans  &trans  &trans  &trans
+        &kp LEFT_SHIFT  &kp LEFT_CONTROL  &trans  &kp LEFT_ARROW  &kp RIGHT_ARROW    &trans  &trans  &trans  &trans  &trans
+&trans  &kp LEFT_WIN    &kp LEFT_ALT      &trans  &kp DE_W        &trans             &trans  &trans  &trans  &trans  &trans  &trans
                                           &trans  &trans          &trans             &trans  &trans  &trans
             >;
         };
