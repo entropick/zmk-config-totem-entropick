@@ -44,7 +44,7 @@
         };
 
         combo__ {
-            bindings = <&kp DELETE>;
+            bindings = <&kp DE_SLASH>;
             key-positions = <23 22>;
         };
 
@@ -107,10 +107,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &kp X            &kp V            &kp L            &kp C        &kp DE_F     &kp K    &kp H           &kp G          &kp W       &kp DE_Y
-       &mt LGUI U       &mt LALT I       &mt LCTRL A      &mt LSHFT E  &kp O        &kp S    &mt RSHFT N     &mt RCTRL R    &mt RALT T  &mt RIGHT_WIN D
-&kp J  &kp DE_U_UMLAUT  &kp DE_O_UMLAUT  &kp DE_A_UMLAUT  &kp P        &kp DE_Z     &kp B    &kp M           &kp COMMA      &kp DOT     &kp DE_SZ        &kp Q
-                                         &kp DELETE       &lt 1 TAB    &kp SPACE    &kp RET  &lt 2 DE_SLASH  &kp BACKSPACE
+       &kp X            &kp V            &kp L            &kp C        &kp DE_F       &kp K    &kp H           &kp G          &kp W       &kp DE_Y
+       &mt LGUI U       &mt LALT I       &mt LCTRL A      &mt LSHFT E  &kp O          &kp S    &mt RSHFT N     &mt RCTRL R    &mt RALT T  &mt RIGHT_WIN D
+&kp J  &kp DE_U_UMLAUT  &kp DE_O_UMLAUT  &kp DE_A_UMLAUT  &kp P        &kp DE_Z       &kp B    &kp M           &kp COMMA      &kp DOT     &kp DE_SZ        &kp Q
+                                         &kp DELETE       &lt 1 TAB    &lt 3 SPACE    &kp RET  &lt 2 C_REPEAT  &kp BACKSPACE
             >;
         };
 
@@ -185,10 +185,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &to 4   &to 5   &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+        &to 4           &to 5             &trans  &kp DE_T        &kp DE_D           &trans  &trans  &trans  &trans  &trans
+        &kp LEFT_WIN    &kp LEFT_CONTROL  &trans  &kp LEFT_ARROW  &kp RIGHT_ARROW    &trans  &trans  &trans  &trans  &trans
+&trans  &kp LEFT_SHIFT  &kp LEFT_ALT      &trans  &kp DE_W        &trans             &trans  &trans  &trans  &trans  &trans  &trans
+                                          &trans  &trans          &trans             &trans  &trans  &trans
             >;
         };
 
