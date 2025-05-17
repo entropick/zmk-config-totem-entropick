@@ -118,10 +118,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &kp X            &kp V            &kp L            &kp C        &kp DE_F       &kp K           &kp H           &kp G          &kp W       &kp DE_Y
-       &mt LGUI U       &mt LALT I       &mt LCTRL A      &mt LSHFT E  &kp O          &kp S           &mt RSHFT N     &mt RCTRL R    &mt RALT T  &mt RIGHT_WIN D
-&kp J  &kp DE_U_UMLAUT  &kp DE_O_UMLAUT  &kp DE_A_UMLAUT  &kp P        &kp DE_Z       &kp B           &kp M           &kp COMMA      &kp DOT     &kp DE_SZ        &kp Q
-                                         &kp DELETE       &lt 1 TAB    &lt 3 SPACE    &kp LEFT_SHIFT  &lt 2 DE_SLASH  &kp BACKSPACE
+       &kp X            &kp V            &kp L            &kp C      &kp DE_F       &kp K           &kp H           &kp G          &kp W       &kp DE_Y
+       &mt LGUI U       &mt LALT I       &mt LCTRL A      &kp DE_E   &kp O          &kp S           &mt RSHFT N     &mt RCTRL R    &mt RALT T  &mt RIGHT_WIN D
+&kp J  &kp DE_U_UMLAUT  &kp DE_O_UMLAUT  &kp DE_A_UMLAUT  &kp P      &kp DE_Z       &kp B           &kp M           &kp COMMA      &kp DOT     &kp DE_SZ        &kp Q
+                                         &kp DELETE       &lt 1 TAB  &lt 3 SPACE    &kp LEFT_SHIFT  &lt 2 DE_SLASH  &kp BACKSPACE
             >;
         };
 
@@ -147,7 +147,7 @@
                &kp HOME                &kp DE_UNDER             &kp DE_LESS_THAN     &kp DE_GREATER_THAN   &kp DE_LEFT_PARENTHESIS    &kp DE_RIGHT_PARENTHESIS  &kp DE_N7             &kp DE_N8               &kp DE_N9           &kp END
                &mt LEFT_WIN KP_DIVIDE  &mt LEFT_ALT LEFT_ARROW  &mt LEFT_CONTROL UP  &mt LEFT_SHIFT RIGHT  &kp DE_LEFT_BRACKET        &kp DE_RIGHT_BRACKET      &mt LEFT_SHIFT DE_N4  &mt LEFT_CONTROL DE_N5  &mt LEFT_ALT DE_N6  &mt LEFT_WIN KP_MINUS
 &kp PAGE_DOWN  &kp KP_MULTIPLY         &kp DE_BACKSLASH         &kp DOWN_ARROW       &kp DE_EQUAL          &kp DE_LEFT_BRACE          &kp DE_RIGHT_BRACE        &kp DE_N1             &kp DE_N2               &kp DE_N3           &kp KP_PLUS            &kp PG_UP
-                                                                &trans               &trans                &trans                     &kp ENTER                 &lt 3 DE_N0           &kp BACKSPACE
+                                                                &trans               &trans                &trans                     &kp DE_N0                 &kp ENTER             &kp BACKSPACE
             >;
         };
 
