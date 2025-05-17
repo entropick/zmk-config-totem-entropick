@@ -45,13 +45,23 @@
         };
 
         combo__ {
-            bindings = <&kp DE_SLASH>;
+            bindings = <&kp DELETE>;
             key-positions = <23 22>;
         };
 
         lay_0 {
             bindings = <&to 0>;
             key-positions = <32 37>;
+        };
+
+        enterright {
+            bindings = <&kp RET>;
+            key-positions = <16 17 18>;
+        };
+
+        enterleft {
+            bindings = <&kp RET>;
+            key-positions = <11 12 13>;
         };
     };
 
@@ -108,10 +118,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &kp X            &kp V            &kp L            &kp C        &kp DE_F       &kp K    &kp H           &kp G          &kp W       &kp DE_Y
-       &mt LGUI U       &mt LALT I       &mt LCTRL A      &mt LSHFT E  &kp O          &kp S    &mt RSHFT N     &mt RCTRL R    &mt RALT T  &mt RIGHT_WIN D
-&kp J  &kp DE_U_UMLAUT  &kp DE_O_UMLAUT  &kp DE_A_UMLAUT  &kp P        &kp DE_Z       &kp B    &kp M           &kp COMMA      &kp DOT     &kp DE_SZ        &kp Q
-                                         &kp DELETE       &lt 1 TAB    &lt 3 SPACE    &kp RET  &lt 2 DE_SLASH  &kp BACKSPACE
+       &kp X            &kp V            &kp L            &kp C        &kp DE_F       &kp K           &kp H           &kp G          &kp W       &kp DE_Y
+       &mt LGUI U       &mt LALT I       &mt LCTRL A      &mt LSHFT E  &kp O          &kp S           &mt RSHFT N     &mt RCTRL R    &mt RALT T  &mt RIGHT_WIN D
+&kp J  &kp DE_U_UMLAUT  &kp DE_O_UMLAUT  &kp DE_A_UMLAUT  &kp P        &kp DE_Z       &kp B           &kp M           &kp COMMA      &kp DOT     &kp DE_SZ        &kp Q
+                                         &kp DELETE       &lt 1 TAB    &lt 3 SPACE    &kp LEFT_SHIFT  &lt 2 DE_SLASH  &kp BACKSPACE
             >;
         };
 
