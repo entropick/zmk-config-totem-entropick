@@ -147,7 +147,7 @@
                &kp HOME                &kp DE_UNDER             &kp DE_LESS_THAN     &kp DE_GREATER_THAN   &kp DE_LEFT_PARENTHESIS    &kp DE_RIGHT_PARENTHESIS  &kp DE_N7             &kp DE_N8               &kp DE_N9           &kp END
                &mt LEFT_WIN KP_DIVIDE  &mt LEFT_ALT LEFT_ARROW  &mt LEFT_CONTROL UP  &mt LEFT_SHIFT RIGHT  &kp DE_LEFT_BRACKET        &kp DE_RIGHT_BRACKET      &mt LEFT_SHIFT DE_N4  &mt LEFT_CONTROL DE_N5  &mt LEFT_ALT DE_N6  &mt LEFT_WIN KP_MINUS
 &kp PAGE_DOWN  &kp KP_MULTIPLY         &kp DE_BACKSLASH         &kp DOWN_ARROW       &kp DE_EQUAL          &kp DE_LEFT_BRACE          &kp DE_RIGHT_BRACE        &kp DE_N1             &kp DE_N2               &kp DE_N3           &kp KP_PLUS            &kp PG_UP
-                                                                &trans               &trans                &trans                     &kp DE_N0                 &kp ENTER             &kp BACKSPACE
+                                                                &trans               &trans                &trans                     &mt LEFT_SHIFT DE_N0      &kp ENTER             &kp BACKSPACE
             >;
         };
 
