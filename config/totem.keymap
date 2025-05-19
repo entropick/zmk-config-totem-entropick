@@ -196,10 +196,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &to 4           &to 5             &trans          &kp DE_T   &kp DE_D           &bt BT_CLR  &sys_reset  &trans  &trans  &trans
-        &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ARROW  &kp RIGHT  &kp PAUSE_BREAK    &trans      &trans      &trans  &trans  &trans
-&trans  &kp LEFT_WIN    &kp LEFT_ALT      &trans          &kp DE_W   &trans             &trans      &trans      &trans  &trans  &trans  &trans
-                                          &trans          &trans     &trans             &trans      &trans      &trans
+        &to 4           &to 5             &trans          &kp DE_T   &kp DE_D    &bt BT_CLR       &sys_reset  &trans  &trans  &trans
+        &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ARROW  &kp RIGHT  &kp TAB     &kp PAUSE_BREAK  &trans      &trans  &trans  &trans
+&trans  &kp LEFT_WIN    &kp LEFT_ALT      &trans          &kp DE_W   &trans      &trans           &trans      &trans  &trans  &trans  &trans
+                                          &trans          &trans     &trans      &trans           &trans      &trans
             >;
         };
 
