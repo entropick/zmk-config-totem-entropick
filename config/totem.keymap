@@ -96,6 +96,17 @@
         };
     };
 
+    behaviors {
+        backanddel: backanddel {
+            compatible = "zmk,behavior-mod-morph";
+            label = "BACKANDDEL";
+            bindings = <&kp BACKSPACE>, <&kp DELETE>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT)>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -118,10 +129,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &kp X            &kp V            &kp L            &kp C                &kp DE_F     &kp K                 &kp H           &kp G          &kp W       &kp DE_Y
-       &mt LGUI U       &mt LALT I       &mt LCTRL A      &mt LEFT_SHIFT DE_E  &kp O        &kp S                 &kp DE_N        &mt RCTRL R    &mt RALT T  &mt RIGHT_WIN D
-&kp J  &kp DE_U_UMLAUT  &kp DE_O_UMLAUT  &kp DE_A_UMLAUT  &kp P                &kp DE_Z     &kp B                 &kp M           &kp COMMA      &kp DOT     &kp DE_SZ        &kp Q
-                                         &lt 3 DELETE     &lt 1 TAB            &kp SPACE    &mt LEFT_SHIFT ENTER  &lt 2 DE_SLASH  &kp BACKSPACE
+       &kp X            &kp V            &kp L            &kp C                &kp DE_F     &kp K                 &kp H           &kp G        &kp W       &kp DE_Y
+       &mt LGUI U       &mt LALT I       &mt LCTRL A      &mt LEFT_SHIFT DE_E  &kp O        &kp S                 &kp DE_N        &mt RCTRL R  &mt RALT T  &mt RIGHT_WIN D
+&kp J  &kp DE_U_UMLAUT  &kp DE_O_UMLAUT  &kp DE_A_UMLAUT  &kp P                &kp DE_Z     &kp B                 &kp M           &kp COMMA    &kp DOT     &kp DE_SZ        &kp Q
+                                         &mo 3            &lt 1 TAB            &kp SPACE    &mt LEFT_SHIFT ENTER  &lt 2 DE_SLASH  &backanddel
             >;
         };
 
