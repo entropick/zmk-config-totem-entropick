@@ -112,7 +112,7 @@
             bindings = <&kp DE_A_UMLAUT>, <&kp DE_UNDER>;
 
             #binding-cells = <0>;
-            mods = <(MOD_LALT|MOD_RALT)>;
+            mods = <(MOD_LCTL|MOD_RCTL)>;
         };
 
         dashoe: dashoe {
@@ -121,7 +121,7 @@
             bindings = <&kp DE_O_UMLAUT>, <&kp DE_MINUS>;
 
             #binding-cells = <0>;
-            mods = <(MOD_LALT|MOD_RALT)>;
+            mods = <(MOD_LCTL|MOD_RCTL)>;
         };
     };
 
