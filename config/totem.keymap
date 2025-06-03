@@ -147,10 +147,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &kp X            &kp V       &kp L        &kp C                &kp DE_F     &kp K           &kp H        &kp G        &kp W       &kp DE_Y
-       &mt LGUI U       &mt LALT I  &mt LCTRL A  &mt LEFT_SHIFT DE_E  &kp O        &kp S           &kp DE_N     &mt RCTRL R  &mt RALT T  &mt RIGHT_WIN D
-&kp J  &kp DE_U_UMLAUT  &dashoe     &underae     &kp P                &kp DE_Z     &kp B           &kp M        &kp COMMA    &kp DOT     &kp DE_SZ        &kp Q
-                                    &mo 3        &lt 1 TAB            &kp SPACE    &kp LEFT_SHIFT  &lt 2 ENTER  &backanddel
+       &kp X            &kp V       &kp L        &kp C                &kp DE_F     &kp K                 &kp H     &kp G        &kp W       &kp DE_Y
+       &mt LGUI U       &mt LALT I  &mt LCTRL A  &mt LEFT_SHIFT DE_E  &kp O        &kp S                 &kp DE_N  &mt RCTRL R  &mt RALT T  &mt RIGHT_WIN D
+&kp J  &kp DE_U_UMLAUT  &dashoe     &underae     &kp P                &kp DE_Z     &kp B                 &kp M     &kp COMMA    &kp DOT     &kp DE_SZ        &kp Q
+                                    &mo 3        &lt 1 TAB            &kp SPACE    &mt LEFT_SHIFT ENTER  &mo 2     &backanddel
             >;
         };
 
@@ -173,10 +173,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-               &kp HOME                &kp DE_UNDER      &kp DE_LESS_THAN  &kp DE_GREATER_THAN  &kp DE_LEFT_PARENTHESIS    &kp DE_RIGHT_PARENTHESIS  &kp DE_N7             &kp DE_N8                   &kp DE_N9           &kp END
-               &mt LEFT_WIN KP_DIVIDE  &kp LEFT_ARROW    &kp UP            &kp RIGHT            &kp DE_LEFT_BRACKET        &kp DE_RIGHT_BRACKET      &mt LEFT_SHIFT DE_N4  &mt LEFT_CONTROL DE_N5      &mt LEFT_ALT DE_N6  &mt LEFT_WIN KP_MINUS
-&kp PAGE_DOWN  &kp KP_MULTIPLY         &kp DE_BACKSLASH  &kp DOWN_ARROW    &kp DE_EQUAL         &kp DE_LEFT_BRACE          &kp DE_RIGHT_BRACE        &kp DE_N1             &kp DE_N2                   &kp DE_N3           &kp KP_PLUS            &kp PG_UP
-                                                         &trans            &trans               &trans                     &kp ENTER                 &kp DE_N0             &mt LEFT_CONTROL BACKSPACE
+               &kp HOME              &kp DE_EQUAL      &kp DE_LESS_THAN  &kp DE_GREATER_THAN  &kp DE_LEFT_PARENTHESIS    &kp DE_RIGHT_PARENTHESIS  &kp DE_N7             &kp DE_N8                   &kp DE_N9           &kp END
+               &mt LEFT_WIN PAGE_UP  &kp LEFT_ARROW    &kp UP            &kp RIGHT            &kp DE_LEFT_BRACKET        &kp DE_RIGHT_BRACKET      &mt LEFT_SHIFT DE_N4  &mt LEFT_CONTROL DE_N5      &mt LEFT_ALT DE_N6  &mt LEFT_WIN KP_MINUS
+&kp PAGE_DOWN  &kp KP_MULTIPLY       &kp DE_BACKSLASH  &kp DOWN_ARROW    &kp DE_SLASH         &kp DE_LEFT_BRACE          &kp DE_RIGHT_BRACE        &kp DE_N1             &kp DE_N2                   &kp DE_N3           &kp KP_PLUS            &kp PG_UP
+                                                       &trans            &trans               &trans                     &kp ENTER                 &kp DE_N0             &mt LEFT_CONTROL BACKSPACE
             >;
         };
 
